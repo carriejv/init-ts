@@ -71,6 +71,8 @@ cd "$PKGNAME"
 echo "[1/5] ${T_STEP}Cloning [${T_RESET}${INITTS_REPO}${T_STEP}] into project directory...${T_RESET}"
 git clone $INITTS_REPO .
 mv package-template.json package.json
+rm init-ts.sh
+rm package-lock.json
 
 # Generate a README and LICENSE
 
