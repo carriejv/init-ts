@@ -14,7 +14,7 @@
 	"scripts": {
 		"start": "node index.js",
 		"test": "npm run lint && npm run testOnly",
-		"testOnly": "nyc --reporter=html --reporter=text mocha -r ts-node/register ./test/**/*.spec.ts",
+		"testOnly": "nyc --reporter=html --reporter=text --reporter=lcov mocha -r ts-node/register ./test/**/*.spec.ts",
 		"lint": "eslint . --ext .ts",
 		"build": "tsc --project ./tsconfig.json",
 		"docs": "typedoc --out docs --theme ./node_modules/typedoc-dark-theme/bin/default/ src && echo \"Docs generated at ./docs/index.html\"",
