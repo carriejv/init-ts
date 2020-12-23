@@ -4,7 +4,7 @@ An minimalist initial Typescript app / library template.
 
 ## Usage
 
-`sh -c "$(curl -sSL https://raw.githubusercontent.com/carriejv/init-ts/master/init-ts.sh)"`
+`bash -c "$(curl -sSL https://raw.githubusercontent.com/carriejv/init-ts/master/init-ts.sh)"`
 
 Alternatively, clone this repo and replace values in `package.json` manually.
 

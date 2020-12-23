@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Initializes a new Typescript repo with a minimal config.
 
