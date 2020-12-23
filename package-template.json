@@ -1,8 +1,9 @@
 {
-	"name": "init-ts",
+	"name": "%PKGNAME%",
 	"version": "0.1.0",
-	"description": "A minimalist initial Typescript repo.",
+	"description": "%PKGDESC%",
 	"keywords": [
+		"TODO: Keywords",
 		"typescript",
 		"types"
 	],
@@ -14,7 +15,7 @@
 	"scripts": {
 		"start": "node index.js",
 		"test": "npm run lint && npm run testOnly",
-		"testOnly": "nyc --reporter=html --reporter=text --reporter=lcov mocha -r ts-node/register ./test/**/*.spec.ts",
+		"testOnly": "nyc --reporter=html --reporter=text mocha -r ts-node/register ./test/**/*.spec.ts",
 		"lint": "eslint . --ext .ts",
 		"build": "tsc --project ./tsconfig.json",
 		"docs": "typedoc --out docs --theme ./node_modules/typedoc-dark-theme/bin/default/ src && echo \"Docs generated at ./docs/index.html\"",
@@ -22,17 +23,17 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/carriejv/init-ts.git"
+		"url": "%REMOTEREPO%.git"
 	},
 	"bugs": {
-		"url": "https://github.com/carriejv/init-ts/issues"
+		"url": "%REMOTEREPO%/issues"
 	},
-	"homepage": "https://github.com/carriejv/init-ts",
-	"author": "Carrie J V <carrie@carriejv.com (https://www.carriejv.com)",
+	"homepage": "%REMOTEREPO%",
+	"author": "%DEVNAME% <%DEVEMAIL%> (%DEVURL%)",
 	"contributors": [
-		"Carrie J V <carrie@carriejv.com (https://www.carriejv.com)"
+		"%DEVEMAIL% <%DEVEMAIL%> (%DEVURL%)"
 	],
-	"license": "Apache-2.0",
+	"license": "%PKGLICENSE%",
 	"private": false,
 	"dependencies": {},
 	"devDependencies": {
