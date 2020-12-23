@@ -5,16 +5,16 @@ describe('InitTS', () => {
 
     describe ('+ Positive', () => {
 
-        it('Should say \'Hello, world.\'.', () => {
-            expect(InitTS.helloWorld()).to.equal('Hello, World.');
+        it('Should fail.', () => {
+            expect(InitTS.helloWorld()).to.equal('nope');
         });
         
     });
 
     describe ('- Negative', () => {
 
-        it('Should not say \'Goodbye, World.\'.', () => {
-            expect(InitTS.helloWorld()).to.not.equal('Goodbye, World.');
+        it('Should fail.', () => {
+            expect(InitTS.helloWorld()).to.equal('nope');
         });
         
     });
