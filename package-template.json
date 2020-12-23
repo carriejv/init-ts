@@ -1,8 +1,9 @@
 {
-	"name": "init-ts",
+	"name": "%PKGNAME%",
 	"version": "0.1.0",
-	"description": "A minimalist initial Typescript repo.",
+	"description": "%PKGDESC%",
 	"keywords": [
+		"TODO: Keywords",
 		"typescript",
 		"types"
 	],
@@ -22,17 +23,17 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/carriejv/init-ts.git"
+		"url": "%REMOTEREPO%.git"
 	},
 	"bugs": {
-		"url": "https://github.com/carriejv/init-ts/issues"
+		"url": "%REMOTEREPO%/issues"
 	},
-	"homepage": "https://github.com/carriejv/init-ts",
-	"author": "Carrie J V <carrie@carriejv.com (https://www.carriejv.com)",
+	"homepage": "%REMOTEREPO%",
+	"author": "%DEVNAME% <%DEVEMAIL%> (%DEVURL%)",
 	"contributors": [
-		"Carrie J V <carrie@carriejv.com (https://www.carriejv.com)"
+		"%DEVEMAIL% <%DEVEMAIL%> (%DEVURL%)"
 	],
-	"license": "Apache-2.0",
+	"license": "%PKGLICENSE%",
 	"private": false,
 	"dependencies": {},
 	"devDependencies": {
