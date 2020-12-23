@@ -33,7 +33,7 @@
 	"contributors": [
 		"%DEVEMAIL% <%DEVEMAIL%> (%DEVURL%)"
 	],
-	"license": "%LICENSE%",
+	"license": "%PKGLICENSE%",
 	"private": false,
 	"dependencies": {},
 	"devDependencies": {
