@@ -1,8 +1,6 @@
 name: ci-build
 
 on:
-  pull_request:
-    types: [edited, opened, reopened]
   push:
     branches: 
       - '**'
