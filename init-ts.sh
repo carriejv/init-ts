@@ -153,6 +153,6 @@ fi
 echo "[5/5] ${T_STEP}Scrapping init-ts .git and initializing a fresh git repo...${T_RESET}"
 rm -rf .git
 git init
-echo "This script does not make an initial commit or set the a remote repo (in case ssh, etc. access is preferred to http)."
+echo "This script does not make an initial commit or set the remote repo."
 
 echo "${T_STEP}Successfully initialized [${T_RESET}${PKGNAME}${T_STEP}]!${T_RESET}"
